@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mantelio extension</title>
+    <link rel="stylesheet" href="./popup.css">
+    <link href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box text-center">
+        <h3 class="title">🔗 SPAMLINK</h3>
+        <span id="statusLabel" class="status label label-success"></span>
+        <br />
+        <br />
+        <input id="input" class="form-control form-control-sm" type="text">
+        <span class="text" id="speedLabel"></span>
+        <input type="range" min="500" max="5000" value="1000" class="slider" id="rangeSlider">
+        <br />
+        <br />
+        <button id="save" class="btn btn-light btn-sm rounded ">Save</button>
+        <!-- <button id="start" class="btn btn-light btn-sm rounded " disabled>Start</button> -->
+        <br />
+        <br />
+        <br />
+        <span class="title">⌨️ Keybinds</span>
+        <br />
+        <span class="text"><strong>Ctrl+M</strong> ➙ Toggle the extension</span>
+
+
+
+    </div>
+
+
+    <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./popup.js"></script>
+</body>
+
+</html>

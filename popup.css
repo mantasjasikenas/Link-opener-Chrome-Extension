@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Rubik',
+        sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: rgb(104, 173, 81);
+    font-family: 'Rubik',
+        sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box {
+    width: 200px;
+    height: 400px;
+    background: black;
+    padding: 10px;
+}
+
+.text {
+    color: white;
+    font-family: 'Rubik',
+        sans-serif;
+    font-size: 10px;
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Mantelio extension",
+  "version": "1.0.0",
+  "description": "Made by Mantelio",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://pigu.lt/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://pigu.lt/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Mantelio extension"
+  },
+  "commands": {
+    "toggle": {
+      "suggested_key": "Ctrl+M",
+      "description": "Toggle the extension"
+    }
+  }
+}
